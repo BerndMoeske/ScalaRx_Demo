@@ -1,0 +1,815 @@
+Thread 0x5e9e14e08
+  at java.lang.Object.wait(J)V (Native Method)
+  at com.sun.jmx.remote.internal.ArrayNotificationBuffer.fetchNotifications(Lcom/sun/jmx/remote/internal/NotificationBufferFilter;JJI)Ljavax/management/remote/NotificationResult; (ArrayNotificationBuffer.java:449)
+  at com.sun.jmx.remote.internal.ArrayNotificationBuffer$ShareBuffer.fetchNotifications(Lcom/sun/jmx/remote/internal/NotificationBufferFilter;JJI)Ljavax/management/remote/NotificationResult; (ArrayNotificationBuffer.java:227)
+  at com.sun.jmx.remote.internal.ServerNotifForwarder.fetchNotifs(JJI)Ljavax/management/remote/NotificationResult; (ServerNotifForwarder.java:275)
+  at javax.management.remote.rmi.RMIConnectionImpl$3.run()Ljavax/management/remote/NotificationResult; (RMIConnectionImpl.java:1289)
+  at javax.management.remote.rmi.RMIConnectionImpl$3.run()Ljava/lang/Object; (RMIConnectionImpl.java:1287)
+  at javax.management.remote.rmi.RMIConnectionImpl.fetchNotifications(JIJ)Ljavax/management/remote/NotificationResult; (RMIConnectionImpl.java:1293)
+  at sun.reflect.NativeMethodAccessorImpl.invoke0(Ljava/lang/reflect/Method;Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object; (Native Method)
+  at sun.reflect.NativeMethodAccessorImpl.invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object; (NativeMethodAccessorImpl.java:57)
+  at sun.reflect.DelegatingMethodAccessorImpl.invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object; (DelegatingMethodAccessorImpl.java:43)
+  at java.lang.reflect.Method.invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object; (Method.java:606)
+  at sun.rmi.server.UnicastServerRef.dispatch(Ljava/rmi/Remote;Ljava/rmi/server/RemoteCall;)V (UnicastServerRef.java:322)
+  at sun.rmi.transport.Transport$1.run()Ljava/lang/Void; (Transport.java:177)
+  at sun.rmi.transport.Transport$1.run()Ljava/lang/Object; (Transport.java:174)
+  at java.security.AccessController.doPrivileged(Ljava/security/PrivilegedExceptionAction;Ljava/security/AccessControlContext;)Ljava/lang/Object; (Native Method)
+  at sun.rmi.transport.Transport.serviceCall(Ljava/rmi/server/RemoteCall;)Z (Transport.java:173)
+  at sun.rmi.transport.tcp.TCPTransport.handleMessages(Lsun/rmi/transport/Connection;Z)V (TCPTransport.java:556)
+  at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0()V (TCPTransport.java:811)
+  at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run()V (TCPTransport.java:670)
+  at java.util.concurrent.ThreadPoolExecutor.runWorker(Ljava/util/concurrent/ThreadPoolExecutor$Worker;)V (ThreadPoolExecutor.java:1145)
+  at java.util.concurrent.ThreadPoolExecutor$Worker.run()V (ThreadPoolExecutor.java:615)
+  at java.lang.Thread.run()V (Thread.java:744)
+
+  locals:
+    objectId=0x5e9e14f40, line=1
+    objectId=0x5e9e14f80, line=1
+    objectId=0x5e9e14938, line=1
+    objectId=0x5e9e14f40, line=1
+    objectId=0x5e9e14f98, line=2
+    objectId=0x5e9e14f80, line=2
+    objectId=0x5e9e14f40, line=2
+    objectId=0x5e9e14fb0, line=3
+    objectId=0x5e9e14910, line=4
+    objectId=0x5e9e14910, line=5
+    objectId=0x5e9e14ee0, line=6
+    objectId=0x5e9e14910, line=6
+    objectId=0x5e9e15058, line=8
+    objectId=0x5e9e14ee0, line=8
+    objectId=0x5e9e14890, line=8
+    objectId=0x5e9e15088, line=11
+    objectId=0x5e9e14ee0, line=11
+    objectId=0x5e9e13ec0, line=11
+    objectId=0x5e9e13ee0, line=11
+    objectId=0x5e9e13ee0, line=11
+    objectId=0x5e9e14e90, line=11
+    objectId=0x5e9e14870, line=11
+    objectId=0x5e9e14890, line=11
+    objectId=0x5e9e14850, line=12
+    objectId=0x5e9e14850, line=13
+    objectId=0x5e9e15118, line=15
+    objectId=0x5e9e13ec0, line=15
+    objectId=0x5e9e14ee0, line=15
+    objectId=0x5e9e14838, line=15
+    objectId=0x5e9e15118, line=15
+    objectId=0x5e9e15138, line=15
+    objectId=0x5e9e15088, line=15
+    objectId=0x5e9e14e70, line=15
+    objectId=0x5e9e9d758, line=15
+    objectId=0x5e9e14e08, line=15
+    objectId=0x5e9e9d758, line=15
+    objectId=0x5e9e15118, line=16
+    objectId=0x5e9e15170, line=16
+    objectId=0x5e9e151a8, line=16
+    objectId=0x5e9e13ec0, line=16
+    objectId=0x5e9e151c8, line=17
+    objectId=0x5e9f0fac0, line=17
+    objectId=0x5e9e151f0, line=17
+    objectId=0x5e9e15220, line=17
+    objectId=0x5e9e15248, line=17
+    objectId=0x5e9e15268, line=17
+    objectId=0x5e9e15298, line=17
+    objectId=0x5e9e152b0, line=17
+    objectId=0x5e9e152d0, line=17
+    objectId=0x5e9e152f8, line=17
+    objectId=0x5e9e15170, line=17
+    objectId=0x5e9e15330, line=17
+    objectId=0x5e9e151c8, line=18
+    objectId=0x5e9e14e08, line=18
+    objectId=0x5e9e15348, line=18
+    objectId=0x5e9f0fc00, line=19
+    objectId=0x5e9e15360, line=19
+    objectId=0x5e9e14e08, line=19
+    objectId=0x5e9e151c8, line=19
+    objectId=0x5e9e15360, line=20
+    objectId=0x5e9e14e08, line=21
+
+Thread 0x5e9f0d938
+  at sun.management.HotSpotDiagnostic.dumpHeap0(Ljava/lang/String;Z)V (Native Method)
+  at sun.management.HotSpotDiagnostic.dumpHeap(Ljava/lang/String;Z)V (HotSpotDiagnostic.java:50)
+  at sun.reflect.NativeMethodAccessorImpl.invoke0(Ljava/lang/reflect/Method;Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object; (Native Method)
+  at sun.reflect.NativeMethodAccessorImpl.invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object; (NativeMethodAccessorImpl.java:57)
+  at sun.reflect.DelegatingMethodAccessorImpl.invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object; (DelegatingMethodAccessorImpl.java:43)
+  at java.lang.reflect.Method.invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object; (Method.java:606)
+  at sun.reflect.misc.Trampoline.invoke(Ljava/lang/reflect/Method;Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object; (MethodUtil.java:75)
+  at sun.reflect.GeneratedMethodAccessor3.invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object; (Unknown Source)
+  at sun.reflect.DelegatingMethodAccessorImpl.invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object; (DelegatingMethodAccessorImpl.java:43)
+  at java.lang.reflect.Method.invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object; (Method.java:606)
+  at sun.reflect.misc.MethodUtil.invoke(Ljava/lang/reflect/Method;Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object; (MethodUtil.java:279)
+  at com.sun.jmx.mbeanserver.ConvertingMethod.invokeWithOpenReturn(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object; (ConvertingMethod.java:193)
+  at com.sun.jmx.mbeanserver.ConvertingMethod.invokeWithOpenReturn(Lcom/sun/jmx/mbeanserver/MXBeanLookup;Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object; (ConvertingMethod.java:175)
+  at com.sun.jmx.mbeanserver.MXBeanIntrospector.invokeM2(Lcom/sun/jmx/mbeanserver/ConvertingMethod;Ljava/lang/Object;[Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object; (MXBeanIntrospector.java:117)
+  at com.sun.jmx.mbeanserver.MXBeanIntrospector.invokeM2(Ljava/lang/Object;Ljava/lang/Object;[Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object; (MXBeanIntrospector.java:54)
+  at com.sun.jmx.mbeanserver.MBeanIntrospector.invokeM(Ljava/lang/Object;Ljava/lang/Object;[Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object; (MBeanIntrospector.java:237)
+  at com.sun.jmx.mbeanserver.PerInterface.invoke(Ljava/lang/Object;Ljava/lang/String;[Ljava/lang/Object;[Ljava/lang/String;Ljava/lang/Object;)Ljava/lang/Object; (PerInterface.java:138)
+  at com.sun.jmx.mbeanserver.MBeanSupport.invoke(Ljava/lang/String;[Ljava/lang/Object;[Ljava/lang/String;)Ljava/lang/Object; (MBeanSupport.java:252)
+  at javax.management.StandardMBean.invoke(Ljava/lang/String;[Ljava/lang/Object;[Ljava/lang/String;)Ljava/lang/Object; (StandardMBean.java:405)
+  at com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.invoke(Ljavax/management/ObjectName;Ljava/lang/String;[Ljava/lang/Object;[Ljava/lang/String;)Ljava/lang/Object; (DefaultMBeanServerInterceptor.java:819)
+  at com.sun.jmx.mbeanserver.JmxMBeanServer.invoke(Ljavax/management/ObjectName;Ljava/lang/String;[Ljava/lang/Object;[Ljava/lang/String;)Ljava/lang/Object; (JmxMBeanServer.java:801)
+  at javax.management.remote.rmi.RMIConnectionImpl.doOperation(I[Ljava/lang/Object;)Ljava/lang/Object; (RMIConnectionImpl.java:1487)
+  at javax.management.remote.rmi.RMIConnectionImpl.access$300(Ljavax/management/remote/rmi/RMIConnectionImpl;I[Ljava/lang/Object;)Ljava/lang/Object; (RMIConnectionImpl.java:97)
+  at javax.management.remote.rmi.RMIConnectionImpl$PrivilegedOperation.run()Ljava/lang/Object; (RMIConnectionImpl.java:1328)
+  at javax.management.remote.rmi.RMIConnectionImpl.doPrivilegedOperation(I[Ljava/lang/Object;Ljavax/security/auth/Subject;)Ljava/lang/Object; (RMIConnectionImpl.java:1420)
+  at javax.management.remote.rmi.RMIConnectionImpl.invoke(Ljavax/management/ObjectName;Ljava/lang/String;Ljava/rmi/MarshalledObject;[Ljava/lang/String;Ljavax/security/auth/Subject;)Ljava/lang/Object; (RMIConnectionImpl.java:848)
+  at sun.reflect.GeneratedMethodAccessor11.invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object; (Unknown Source)
+  at sun.reflect.DelegatingMethodAccessorImpl.invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object; (DelegatingMethodAccessorImpl.java:43)
+  at java.lang.reflect.Method.invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object; (Method.java:606)
+  at sun.rmi.server.UnicastServerRef.dispatch(Ljava/rmi/Remote;Ljava/rmi/server/RemoteCall;)V (UnicastServerRef.java:322)
+  at sun.rmi.transport.Transport$1.run()Ljava/lang/Void; (Transport.java:177)
+  at sun.rmi.transport.Transport$1.run()Ljava/lang/Object; (Transport.java:174)
+  at java.security.AccessController.doPrivileged(Ljava/security/PrivilegedExceptionAction;Ljava/security/AccessControlContext;)Ljava/lang/Object; (Native Method)
+  at sun.rmi.transport.Transport.serviceCall(Ljava/rmi/server/RemoteCall;)Z (Transport.java:173)
+  at sun.rmi.transport.tcp.TCPTransport.handleMessages(Lsun/rmi/transport/Connection;Z)V (TCPTransport.java:556)
+  at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0()V (TCPTransport.java:811)
+  at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run()V (TCPTransport.java:670)
+  at java.util.concurrent.ThreadPoolExecutor.runWorker(Ljava/util/concurrent/ThreadPoolExecutor$Worker;)V (ThreadPoolExecutor.java:1145)
+  at java.util.concurrent.ThreadPoolExecutor$Worker.run()V (ThreadPoolExecutor.java:615)
+  at java.lang.Thread.run()V (Thread.java:744)
+
+  locals:
+    objectId=0x5e9faf910, line=1
+    objectId=0x5e99efd90, line=1
+    objectId=0x5e99e5b30, line=3
+    objectId=0x5e9faf910, line=3
+    objectId=0x5e99efd78, line=3
+    objectId=0x5e9fafed0, line=6
+    objectId=0x5e9faf910, line=6
+    objectId=0x5e99efd78, line=6
+    objectId=0x5e9f44648, line=7
+    objectId=0x5e99efe30, line=7
+    objectId=0x5e9fafed0, line=10
+    objectId=0x5e9faf910, line=10
+    objectId=0x5e99efd78, line=10
+    objectId=0x5e9fafe98, line=11
+    objectId=0x5e9faf910, line=11
+    objectId=0x5e99efd78, line=11
+    objectId=0x5e99efd78, line=11
+    objectId=0x5e9fafe98, line=12
+    objectId=0x5e9f7e060, line=12
+    objectId=0x5e9faf910, line=12
+    objectId=0x5e99efd78, line=12
+    objectId=0x5e9f826a8, line=13
+    objectId=0x5e9fafe98, line=13
+    objectId=0x5e9faf910, line=13
+    objectId=0x5e99efd78, line=13
+    objectId=0x5e9f7e060, line=13
+    objectId=0x5e9f826a8, line=14
+    objectId=0x5e9fafe98, line=14
+    objectId=0x5e9faf910, line=14
+    objectId=0x5e99efd78, line=14
+    objectId=0x5e9f7e060, line=14
+    objectId=0x5e9f826a8, line=15
+    objectId=0x5e9fafe98, line=15
+    objectId=0x5e9faf910, line=15
+    objectId=0x5e99efd78, line=15
+    objectId=0x5e9f7e060, line=15
+    objectId=0x5e9faf928, line=16
+    objectId=0x5e9faf910, line=16
+    objectId=0x5e99ef838, line=16
+    objectId=0x5e99efd78, line=16
+    objectId=0x5e99efbd0, line=16
+    objectId=0x5e9f7e060, line=16
+    objectId=0x5e9fafe68, line=16
+    objectId=0x5e9fafe80, line=16
+    objectId=0x5e99efe18, line=16
+    objectId=0x5e9faea30, line=17
+    objectId=0x5e99ef838, line=17
+    objectId=0x5e99efd78, line=17
+    objectId=0x5e99efbd0, line=17
+    objectId=0x5e9faea18, line=18
+    objectId=0x5e99ef838, line=18
+    objectId=0x5e99efd78, line=18
+    objectId=0x5e99efbd0, line=18
+    objectId=0x5e9f80790, line=19
+    objectId=0x5e99ef718, line=19
+    objectId=0x5e99ef838, line=19
+    objectId=0x5e99efd78, line=19
+    objectId=0x5e99efbd0, line=19
+    objectId=0x5e9faea18, line=19
+    objectId=0x5e9f7e078, line=20
+    objectId=0x5e99ef718, line=20
+    objectId=0x5e99ef838, line=20
+    objectId=0x5e99efd78, line=20
+    objectId=0x5e99efbd0, line=20
+    objectId=0x5e9e14ee0, line=21
+    objectId=0x5e99efde0, line=21
+    objectId=0x5e9e14ee0, line=22
+    objectId=0x5e99efde0, line=22
+    objectId=0x5e99efe00, line=23
+    objectId=0x5e9e14ee0, line=24
+    objectId=0x5e99efde0, line=24
+    objectId=0x5e99efe00, line=24
+    objectId=0x5e9e14ee0, line=25
+    objectId=0x5e99ef718, line=25
+    objectId=0x5e99ef838, line=25
+    objectId=0x5e99ef980, line=25
+    objectId=0x5e99efbd0, line=25
+    objectId=0x5e99efd78, line=25
+    objectId=0x5e99efde0, line=25
+    objectId=0x5ea115c68, line=26
+    objectId=0x5e9e14ee0, line=26
+    objectId=0x5e99ef610, line=26
+    objectId=0x5e9e15088, line=29
+    objectId=0x5e9e14ee0, line=29
+    objectId=0x5e99eecc8, line=29
+    objectId=0x5e99eece8, line=29
+    objectId=0x5e99eece8, line=29
+    objectId=0x5e9e37f60, line=29
+    objectId=0x5e99ef5e8, line=29
+    objectId=0x5e99ef610, line=29
+    objectId=0x5e99ef5c8, line=30
+    objectId=0x5e99ef5c8, line=31
+    objectId=0x5e9e15118, line=33
+    objectId=0x5e99eecc8, line=33
+    objectId=0x5e9e14ee0, line=33
+    objectId=0x5e99ef5b0, line=33
+    objectId=0x5e9e15118, line=33
+    objectId=0x5e9e15138, line=33
+    objectId=0x5e9e15088, line=33
+    objectId=0x5e9e14e70, line=33
+    objectId=0x5e9e9d758, line=33
+    objectId=0x5e9f0d938, line=33
+    objectId=0x5e9e9d758, line=33
+    objectId=0x5e9e15118, line=34
+    objectId=0x5e9f0fa60, line=34
+    objectId=0x5e9f0fa40, line=34
+    objectId=0x5e99eecc8, line=34
+    objectId=0x5e9f0fa98, line=35
+    objectId=0x5e9f0fac0, line=35
+    objectId=0x5e9f0d9a0, line=35
+    objectId=0x5e9f0f9f8, line=35
+    objectId=0x5e9f0fae8, line=35
+    objectId=0x5e9f0fb08, line=35
+    objectId=0x5e9f0fb38, line=35
+    objectId=0x5e9f0fb50, line=35
+    objectId=0x5e9f0fb70, line=35
+    objectId=0x5e9f0fb98, line=35
+    objectId=0x5e9f0fa60, line=35
+    objectId=0x5e9f0fbd0, line=35
+    objectId=0x5e9f0fa98, line=36
+    objectId=0x5e9f0d938, line=36
+    objectId=0x5e9f0fbe8, line=36
+    objectId=0x5e9f0fc00, line=37
+    objectId=0x5e9f0fc48, line=37
+    objectId=0x5e9f0d938, line=37
+    objectId=0x5e9f0fa98, line=37
+    objectId=0x5e9f0fc48, line=38
+    objectId=0x5e9f0d938, line=39
+
+Thread 0x5e9f79d80
+  at java.lang.Object.wait(J)V (Native Method)
+  at com.sun.jmx.remote.internal.ServerCommunicatorAdmin$Timeout.run()V (ServerCommunicatorAdmin.java:168)
+  at java.lang.Thread.run()V (Thread.java:744)
+
+  locals:
+    objectId=0x5e9f79e00, line=1
+    objectId=0x5e9f79de8, line=1
+    objectId=0x5e9f79d80, line=2
+
+Thread 0x5e9ffeea0
+  at sun.misc.Unsafe.park(ZJ)V (Native Method)
+  at java.util.concurrent.locks.LockSupport.parkNanos(Ljava/lang/Object;J)V (LockSupport.java:226)
+  at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(J)J (AbstractQueuedSynchronizer.java:2082)
+  at java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take()Ljava/util/concurrent/RunnableScheduledFuture; (ScheduledThreadPoolExecutor.java:1090)
+  at java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take()Ljava/lang/Object; (ScheduledThreadPoolExecutor.java:807)
+  at java.util.concurrent.ThreadPoolExecutor.getTask()Ljava/lang/Runnable; (ThreadPoolExecutor.java:1068)
+  at java.util.concurrent.ThreadPoolExecutor.runWorker(Ljava/util/concurrent/ThreadPoolExecutor$Worker;)V (ThreadPoolExecutor.java:1130)
+  at java.util.concurrent.ThreadPoolExecutor$Worker.run()V (ThreadPoolExecutor.java:615)
+  at java.lang.Thread.run()V (Thread.java:744)
+
+  locals:
+    objectId=0x5e9ffef08, line=1
+    objectId=0x5e9ffeea0, line=1
+    objectId=0x5e9ffef08, line=2
+    objectId=0x5e9ffef20, line=2
+    objectId=0x5e9ffef40, line=3
+    objectId=0x5e9ffef60, line=3
+    objectId=0x5e9ffef78, line=3
+    objectId=0x5e9ffeea0, line=3
+    objectId=0x5e9ffef40, line=4
+    objectId=0x5e9ffefc0, line=5
+    objectId=0x5e9ffefc0, line=6
+    objectId=0x5e9fff010, line=6
+    objectId=0x5e9ffeea0, line=6
+    objectId=0x5e9fff010, line=7
+    objectId=0x5e9ffeea0, line=8
+
+Thread 0x5e9f79e18
+  at java.net.SocketInputStream.socketRead0(Ljava/io/FileDescriptor;[BIII)I (Native Method)
+  at java.net.SocketInputStream.read([BIII)I (SocketInputStream.java:152)
+  at java.net.SocketInputStream.read([BII)I (SocketInputStream.java:122)
+  at java.io.BufferedInputStream.fill()V (BufferedInputStream.java:235)
+  at java.io.BufferedInputStream.read()I (BufferedInputStream.java:254)
+  at java.io.FilterInputStream.read()I (FilterInputStream.java:83)
+  at sun.rmi.transport.tcp.TCPTransport.handleMessages(Lsun/rmi/transport/Connection;Z)V (TCPTransport.java:538)
+  at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0()V (TCPTransport.java:811)
+  at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run()V (TCPTransport.java:670)
+  at java.util.concurrent.ThreadPoolExecutor.runWorker(Ljava/util/concurrent/ThreadPoolExecutor$Worker;)V (ThreadPoolExecutor.java:1145)
+  at java.util.concurrent.ThreadPoolExecutor$Worker.run()V (ThreadPoolExecutor.java:615)
+  at java.lang.Thread.run()V (Thread.java:744)
+
+  locals:
+    objectId=0x5e9f79e80, line=1
+    objectId=0x5e9f79ec8, line=1
+    objectId=0x5e9f79eb0, line=1
+    objectId=0x5e9f79e80, line=2
+    objectId=0x5e9f79ec8, line=2
+    objectId=0x5e9f7bed8, line=3
+    objectId=0x5e9f7bed8, line=4
+    objectId=0x5e9f7bf00, line=5
+    objectId=0x5e9e15118, line=6
+    objectId=0x5e9f7bf20, line=6
+    objectId=0x5e9f7bf00, line=6
+    objectId=0x5e9f7bf58, line=7
+    objectId=0x5e9f0fac0, line=7
+    objectId=0x5e9f79e80, line=7
+    objectId=0x5e9f7bed8, line=7
+    objectId=0x5e9f7bf80, line=7
+    objectId=0x5e9f7bfa0, line=7
+    objectId=0x5e9f7bfd0, line=7
+    objectId=0x5e9f7bfe8, line=7
+    objectId=0x5e9f7c008, line=7
+    objectId=0x5e9f7c030, line=7
+    objectId=0x5e9f7bf20, line=7
+    objectId=0x5e9f7c068, line=7
+    objectId=0x5e9f7bf58, line=8
+    objectId=0x5e9f79e18, line=8
+    objectId=0x5e9f7c080, line=8
+    objectId=0x5e9f0fc00, line=9
+    objectId=0x5e9f7c098, line=9
+    objectId=0x5e9f79e18, line=9
+    objectId=0x5e9f7bf58, line=9
+    objectId=0x5e9f7c098, line=10
+    objectId=0x5e9f79e18, line=11
+
+Thread 0x5ea08a438
+  at no.aedify.rxscala.demo.Creature$$anonfun$5.apply$mcVJ$sp(J)V (Creature.scala:144)
+  at no.aedify.rxscala.demo.Creature$$anonfun$5.apply(J)V (Creature.scala:142)
+  at no.aedify.rxscala.demo.Creature$$anonfun$5.apply(Ljava/lang/Object;)Ljava/lang/Object; (Creature.scala:142)
+  at rx.lang.scala.ImplicitFunctionConversions$$anon$2.call(Ljava/lang/Object;)V (ImplicitFunctionConversions.scala:80)
+  at rx.Observable$2.onNext(Ljava/lang/Object;)V (Observable.java:373)
+  at rx.operators.SafeObserver.onNext(Ljava/lang/Object;)V (SafeObserver.java:121)
+  at rx.operators.OperationMap$MapObservable$1.onNext(Ljava/lang/Object;)V (OperationMap.java:124)
+  at rx.operators.SafeObserver.onNext(Ljava/lang/Object;)V (SafeObserver.java:121)
+  at rx.operators.OperationInterval$Interval$1.call()V (OperationInterval.java:72)
+  at rx.Scheduler$6.call(Lrx/Scheduler;Ljava/lang/Void;)Lrx/Subscription; (Scheduler.java:235)
+  at rx.Scheduler$6.call(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object; (Scheduler.java:232)
+  at rx.concurrency.ExecutorScheduler$1.run()V (ExecutorScheduler.java:55)
+  at java.util.concurrent.Executors$RunnableAdapter.call()Ljava/lang/Object; (Executors.java:471)
+  at java.util.concurrent.FutureTask.runAndReset()Z (FutureTask.java:304)
+  at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(Ljava/util/concurrent/ScheduledThreadPoolExecutor$ScheduledFutureTask;)Z (ScheduledThreadPoolExecutor.java:178)
+  at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run()V (ScheduledThreadPoolExecutor.java:293)
+  at java.util.concurrent.ThreadPoolExecutor.runWorker(Ljava/util/concurrent/ThreadPoolExecutor$Worker;)V (ThreadPoolExecutor.java:1145)
+  at java.util.concurrent.ThreadPoolExecutor$Worker.run()V (ThreadPoolExecutor.java:615)
+  at java.lang.Thread.run()V (Thread.java:744)
+
+  locals:
+    objectId=0x5ea08a4a0, line=0
+    objectId=0x5ea08a550, line=5
+    objectId=0x5ea08a538, line=6
+    objectId=0x5ea08a520, line=7
+    objectId=0x5ea08a568, line=8
+    objectId=0x5ea08a5e0, line=11
+    objectId=0x5ea08a5c8, line=12
+    objectId=0x5ea08a580, line=13
+    objectId=0x5ea08a580, line=15
+    objectId=0x5e9e158f0, line=16
+    objectId=0x5ea08a618, line=16
+    objectId=0x5ea08a438, line=16
+    objectId=0x5ea08a580, line=16
+    objectId=0x5ea08a618, line=17
+    objectId=0x5ea08a438, line=18
+
+Thread 0x5e9fff040
+  at no.aedify.rxscala.demo.Creature$$anonfun$5.apply$mcVJ$sp(J)V (Creature.scala:144)
+  at no.aedify.rxscala.demo.Creature$$anonfun$5.apply(J)V (Creature.scala:142)
+  at no.aedify.rxscala.demo.Creature$$anonfun$5.apply(Ljava/lang/Object;)Ljava/lang/Object; (Creature.scala:142)
+  at rx.lang.scala.ImplicitFunctionConversions$$anon$2.call(Ljava/lang/Object;)V (ImplicitFunctionConversions.scala:80)
+  at rx.Observable$2.onNext(Ljava/lang/Object;)V (Observable.java:373)
+  at rx.operators.SafeObserver.onNext(Ljava/lang/Object;)V (SafeObserver.java:121)
+  at rx.operators.OperationMap$MapObservable$1.onNext(Ljava/lang/Object;)V (OperationMap.java:124)
+  at rx.operators.SafeObserver.onNext(Ljava/lang/Object;)V (SafeObserver.java:121)
+  at rx.operators.OperationInterval$Interval$1.call()V (OperationInterval.java:72)
+  at rx.Scheduler$6.call(Lrx/Scheduler;Ljava/lang/Void;)Lrx/Subscription; (Scheduler.java:235)
+  at rx.Scheduler$6.call(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object; (Scheduler.java:232)
+  at rx.concurrency.ExecutorScheduler$1.run()V (ExecutorScheduler.java:55)
+  at java.util.concurrent.Executors$RunnableAdapter.call()Ljava/lang/Object; (Executors.java:471)
+  at java.util.concurrent.FutureTask.runAndReset()Z (FutureTask.java:304)
+  at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(Ljava/util/concurrent/ScheduledThreadPoolExecutor$ScheduledFutureTask;)Z (ScheduledThreadPoolExecutor.java:178)
+  at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run()V (ScheduledThreadPoolExecutor.java:293)
+  at java.util.concurrent.ThreadPoolExecutor.runWorker(Ljava/util/concurrent/ThreadPoolExecutor$Worker;)V (ThreadPoolExecutor.java:1145)
+  at java.util.concurrent.ThreadPoolExecutor$Worker.run()V (ThreadPoolExecutor.java:615)
+  at java.lang.Thread.run()V (Thread.java:744)
+
+  locals:
+    objectId=0x5e9c2e938, line=0
+    objectId=0x5e9c2e9b0, line=5
+    objectId=0x5e9c2ea40, line=6
+    objectId=0x5e9c2ea28, line=7
+    objectId=0x5e9c2ea98, line=8
+    objectId=0x5e9c2ebd8, line=11
+    objectId=0x5e9c2ec40, line=12
+    objectId=0x5e9c2ebf8, line=13
+    objectId=0x5e9c2ebf8, line=15
+    objectId=0x5e9e158f0, line=16
+    objectId=0x5e9fff180, line=16
+    objectId=0x5e9fff040, line=16
+    objectId=0x5e9c2ebf8, line=16
+    objectId=0x5e9fff180, line=17
+    objectId=0x5e9fff040, line=18
+
+Thread 0x5e9e15390
+  at no.aedify.rxscala.demo.Creature$$anonfun$5.apply$mcVJ$sp(J)V (Creature.scala:144)
+  at no.aedify.rxscala.demo.Creature$$anonfun$5.apply(J)V (Creature.scala:142)
+  at no.aedify.rxscala.demo.Creature$$anonfun$5.apply(Ljava/lang/Object;)Ljava/lang/Object; (Creature.scala:142)
+  at rx.lang.scala.ImplicitFunctionConversions$$anon$2.call(Ljava/lang/Object;)V (ImplicitFunctionConversions.scala:80)
+  at rx.Observable$2.onNext(Ljava/lang/Object;)V (Observable.java:373)
+  at rx.operators.SafeObserver.onNext(Ljava/lang/Object;)V (SafeObserver.java:121)
+  at rx.operators.OperationMap$MapObservable$1.onNext(Ljava/lang/Object;)V (OperationMap.java:124)
+  at rx.operators.SafeObserver.onNext(Ljava/lang/Object;)V (SafeObserver.java:121)
+  at rx.operators.OperationInterval$Interval$1.call()V (OperationInterval.java:72)
+  at rx.Scheduler$6.call(Lrx/Scheduler;Ljava/lang/Void;)Lrx/Subscription; (Scheduler.java:235)
+  at rx.Scheduler$6.call(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object; (Scheduler.java:232)
+  at rx.concurrency.ExecutorScheduler$1.run()V (ExecutorScheduler.java:55)
+  at java.util.concurrent.Executors$RunnableAdapter.call()Ljava/lang/Object; (Executors.java:471)
+  at java.util.concurrent.FutureTask.runAndReset()Z (FutureTask.java:304)
+  at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(Ljava/util/concurrent/ScheduledThreadPoolExecutor$ScheduledFutureTask;)Z (ScheduledThreadPoolExecutor.java:178)
+  at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run()V (ScheduledThreadPoolExecutor.java:293)
+  at java.util.concurrent.ThreadPoolExecutor.runWorker(Ljava/util/concurrent/ThreadPoolExecutor$Worker;)V (ThreadPoolExecutor.java:1145)
+  at java.util.concurrent.ThreadPoolExecutor$Worker.run()V (ThreadPoolExecutor.java:615)
+  at java.lang.Thread.run()V (Thread.java:744)
+
+  locals:
+    objectId=0x5e99e5188, line=0
+    objectId=0x5e99e5200, line=5
+    objectId=0x5e99e5290, line=6
+    objectId=0x5e99e5278, line=7
+    objectId=0x5e99e52e8, line=8
+    objectId=0x5e99e5428, line=11
+    objectId=0x5e99e5490, line=12
+    objectId=0x5e99e5448, line=13
+    objectId=0x5e99e5448, line=15
+    objectId=0x5e9e158f0, line=16
+    objectId=0x5e9e158c0, line=16
+    objectId=0x5e9e15390, line=16
+    objectId=0x5e99e5448, line=16
+    objectId=0x5e9e158c0, line=17
+    objectId=0x5e9e15390, line=18
+
+Thread 0x5e9f0fc78
+  at no.aedify.rxscala.demo.Creature$$anonfun$5.apply$mcVJ$sp(J)V (Creature.scala:144)
+  at no.aedify.rxscala.demo.Creature$$anonfun$5.apply(J)V (Creature.scala:142)
+  at no.aedify.rxscala.demo.Creature$$anonfun$5.apply(Ljava/lang/Object;)Ljava/lang/Object; (Creature.scala:142)
+  at rx.lang.scala.ImplicitFunctionConversions$$anon$2.call(Ljava/lang/Object;)V (ImplicitFunctionConversions.scala:80)
+  at rx.Observable$2.onNext(Ljava/lang/Object;)V (Observable.java:373)
+  at rx.operators.SafeObserver.onNext(Ljava/lang/Object;)V (SafeObserver.java:121)
+  at rx.operators.OperationMap$MapObservable$1.onNext(Ljava/lang/Object;)V (OperationMap.java:124)
+  at rx.operators.SafeObserver.onNext(Ljava/lang/Object;)V (SafeObserver.java:121)
+  at rx.operators.OperationInterval$Interval$1.call()V (OperationInterval.java:72)
+  at rx.Scheduler$6.call(Lrx/Scheduler;Ljava/lang/Void;)Lrx/Subscription; (Scheduler.java:235)
+  at rx.Scheduler$6.call(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object; (Scheduler.java:232)
+  at rx.concurrency.ExecutorScheduler$1.run()V (ExecutorScheduler.java:55)
+  at java.util.concurrent.Executors$RunnableAdapter.call()Ljava/lang/Object; (Executors.java:471)
+  at java.util.concurrent.FutureTask.runAndReset()Z (FutureTask.java:304)
+  at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(Ljava/util/concurrent/ScheduledThreadPoolExecutor$ScheduledFutureTask;)Z (ScheduledThreadPoolExecutor.java:178)
+  at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run()V (ScheduledThreadPoolExecutor.java:293)
+  at java.util.concurrent.ThreadPoolExecutor.runWorker(Ljava/util/concurrent/ThreadPoolExecutor$Worker;)V (ThreadPoolExecutor.java:1145)
+  at java.util.concurrent.ThreadPoolExecutor$Worker.run()V (ThreadPoolExecutor.java:615)
+  at java.lang.Thread.run()V (Thread.java:744)
+
+  locals:
+    objectId=0x5e99e3658, line=0
+    objectId=0x5e99e36d0, line=5
+    objectId=0x5e99e3760, line=6
+    objectId=0x5e99e3748, line=7
+    objectId=0x5e99e37b8, line=8
+    objectId=0x5e99e38f8, line=11
+    objectId=0x5e99e3960, line=12
+    objectId=0x5e99e3918, line=13
+    objectId=0x5e99e3918, line=15
+    objectId=0x5e9e158f0, line=16
+    objectId=0x5e9f100f0, line=16
+    objectId=0x5e9f0fc78, line=16
+    objectId=0x5e99e3918, line=16
+    objectId=0x5e9f100f0, line=17
+    objectId=0x5e9f0fc78, line=18
+
+Thread 0x5e9f7c0c8
+  at no.aedify.rxscala.demo.Creature$$anonfun$5.apply$mcVJ$sp(J)V (Creature.scala:144)
+  at no.aedify.rxscala.demo.Creature$$anonfun$5.apply(J)V (Creature.scala:142)
+  at no.aedify.rxscala.demo.Creature$$anonfun$5.apply(Ljava/lang/Object;)Ljava/lang/Object; (Creature.scala:142)
+  at rx.lang.scala.ImplicitFunctionConversions$$anon$2.call(Ljava/lang/Object;)V (ImplicitFunctionConversions.scala:80)
+  at rx.Observable$2.onNext(Ljava/lang/Object;)V (Observable.java:373)
+  at rx.operators.SafeObserver.onNext(Ljava/lang/Object;)V (SafeObserver.java:121)
+  at rx.operators.OperationMap$MapObservable$1.onNext(Ljava/lang/Object;)V (OperationMap.java:124)
+  at rx.operators.SafeObserver.onNext(Ljava/lang/Object;)V (SafeObserver.java:121)
+  at rx.operators.OperationInterval$Interval$1.call()V (OperationInterval.java:72)
+  at rx.Scheduler$6.call(Lrx/Scheduler;Ljava/lang/Void;)Lrx/Subscription; (Scheduler.java:235)
+  at rx.Scheduler$6.call(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object; (Scheduler.java:232)
+  at rx.concurrency.ExecutorScheduler$1.run()V (ExecutorScheduler.java:55)
+  at java.util.concurrent.Executors$RunnableAdapter.call()Ljava/lang/Object; (Executors.java:471)
+  at java.util.concurrent.FutureTask.runAndReset()Z (FutureTask.java:304)
+  at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(Ljava/util/concurrent/ScheduledThreadPoolExecutor$ScheduledFutureTask;)Z (ScheduledThreadPoolExecutor.java:178)
+  at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run()V (ScheduledThreadPoolExecutor.java:293)
+  at java.util.concurrent.ThreadPoolExecutor.runWorker(Ljava/util/concurrent/ThreadPoolExecutor$Worker;)V (ThreadPoolExecutor.java:1145)
+  at java.util.concurrent.ThreadPoolExecutor$Worker.run()V (ThreadPoolExecutor.java:615)
+  at java.lang.Thread.run()V (Thread.java:744)
+
+  locals:
+    objectId=0x5e9ca2108, line=0
+    objectId=0x5e9ca2180, line=5
+    objectId=0x5e9ca2210, line=6
+    objectId=0x5e9ca21f8, line=7
+    objectId=0x5e9ca2268, line=8
+    objectId=0x5e9ca23a8, line=11
+    objectId=0x5e9ca2410, line=12
+    objectId=0x5e9ca23c8, line=13
+    objectId=0x5e9ca23c8, line=15
+    objectId=0x5e9e158f0, line=16
+    objectId=0x5e9f7c130, line=16
+    objectId=0x5e9f7c0c8, line=16
+    objectId=0x5e9ca23c8, line=16
+    objectId=0x5e9f7c130, line=17
+    objectId=0x5e9f7c0c8, line=18
+
+Thread 0x5ea0f2dd0
+  at no.aedify.rxscala.demo.Creature$$anonfun$5.apply$mcVJ$sp(J)V (Creature.scala:144)
+  at no.aedify.rxscala.demo.Creature$$anonfun$5.apply(J)V (Creature.scala:142)
+  at no.aedify.rxscala.demo.Creature$$anonfun$5.apply(Ljava/lang/Object;)Ljava/lang/Object; (Creature.scala:142)
+  at rx.lang.scala.ImplicitFunctionConversions$$anon$2.call(Ljava/lang/Object;)V (ImplicitFunctionConversions.scala:80)
+  at rx.Observable$2.onNext(Ljava/lang/Object;)V (Observable.java:373)
+  at rx.operators.SafeObserver.onNext(Ljava/lang/Object;)V (SafeObserver.java:121)
+  at rx.operators.OperationMap$MapObservable$1.onNext(Ljava/lang/Object;)V (OperationMap.java:124)
+  at rx.operators.SafeObserver.onNext(Ljava/lang/Object;)V (SafeObserver.java:121)
+  at rx.operators.OperationInterval$Interval$1.call()V (OperationInterval.java:72)
+  at rx.Scheduler$6.call(Lrx/Scheduler;Ljava/lang/Void;)Lrx/Subscription; (Scheduler.java:235)
+  at rx.Scheduler$6.call(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object; (Scheduler.java:232)
+  at rx.concurrency.ExecutorScheduler$1.run()V (ExecutorScheduler.java:55)
+  at java.util.concurrent.Executors$RunnableAdapter.call()Ljava/lang/Object; (Executors.java:471)
+  at java.util.concurrent.FutureTask.runAndReset()Z (FutureTask.java:304)
+  at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(Ljava/util/concurrent/ScheduledThreadPoolExecutor$ScheduledFutureTask;)Z (ScheduledThreadPoolExecutor.java:178)
+  at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run()V (ScheduledThreadPoolExecutor.java:293)
+  at java.util.concurrent.ThreadPoolExecutor.runWorker(Ljava/util/concurrent/ThreadPoolExecutor$Worker;)V (ThreadPoolExecutor.java:1145)
+  at java.util.concurrent.ThreadPoolExecutor$Worker.run()V (ThreadPoolExecutor.java:615)
+  at java.lang.Thread.run()V (Thread.java:744)
+
+  locals:
+    objectId=0x5e9dd5c98, line=0
+    objectId=0x5e9dd5d10, line=5
+    objectId=0x5e9dd5da0, line=6
+    objectId=0x5e9dd5d88, line=7
+    objectId=0x5e9dd5df8, line=8
+    objectId=0x5e9dd5f38, line=11
+    objectId=0x5e9dd5fa0, line=12
+    objectId=0x5e9dd5f58, line=13
+    objectId=0x5e9dd5f58, line=15
+    objectId=0x5e9e158f0, line=16
+    objectId=0x5ea0f2e38, line=16
+    objectId=0x5ea0f2dd0, line=16
+    objectId=0x5e9dd5f58, line=16
+    objectId=0x5ea0f2e38, line=17
+    objectId=0x5ea0f2dd0, line=18
+
+Thread 0x5ea1730f8
+  at no.aedify.rxscala.demo.Creature$$anonfun$5.apply$mcVJ$sp(J)V (Creature.scala:144)
+  at no.aedify.rxscala.demo.Creature$$anonfun$5.apply(J)V (Creature.scala:142)
+  at no.aedify.rxscala.demo.Creature$$anonfun$5.apply(Ljava/lang/Object;)Ljava/lang/Object; (Creature.scala:142)
+  at rx.lang.scala.ImplicitFunctionConversions$$anon$2.call(Ljava/lang/Object;)V (ImplicitFunctionConversions.scala:80)
+  at rx.Observable$2.onNext(Ljava/lang/Object;)V (Observable.java:373)
+  at rx.operators.SafeObserver.onNext(Ljava/lang/Object;)V (SafeObserver.java:121)
+  at rx.operators.OperationMap$MapObservable$1.onNext(Ljava/lang/Object;)V (OperationMap.java:124)
+  at rx.operators.SafeObserver.onNext(Ljava/lang/Object;)V (SafeObserver.java:121)
+  at rx.operators.OperationInterval$Interval$1.call()V (OperationInterval.java:72)
+  at rx.Scheduler$6.call(Lrx/Scheduler;Ljava/lang/Void;)Lrx/Subscription; (Scheduler.java:235)
+  at rx.Scheduler$6.call(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object; (Scheduler.java:232)
+  at rx.concurrency.ExecutorScheduler$1.run()V (ExecutorScheduler.java:55)
+  at java.util.concurrent.Executors$RunnableAdapter.call()Ljava/lang/Object; (Executors.java:471)
+  at java.util.concurrent.FutureTask.runAndReset()Z (FutureTask.java:304)
+  at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(Ljava/util/concurrent/ScheduledThreadPoolExecutor$ScheduledFutureTask;)Z (ScheduledThreadPoolExecutor.java:178)
+  at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run()V (ScheduledThreadPoolExecutor.java:293)
+  at java.util.concurrent.ThreadPoolExecutor.runWorker(Ljava/util/concurrent/ThreadPoolExecutor$Worker;)V (ThreadPoolExecutor.java:1145)
+  at java.util.concurrent.ThreadPoolExecutor$Worker.run()V (ThreadPoolExecutor.java:615)
+  at java.lang.Thread.run()V (Thread.java:744)
+
+  locals:
+    objectId=0x5ea173160, line=0
+    objectId=0x5ea173210, line=5
+    objectId=0x5ea1731f8, line=6
+    objectId=0x5ea1731e0, line=7
+    objectId=0x5ea173228, line=8
+    objectId=0x5ea1732a0, line=11
+    objectId=0x5ea173288, line=12
+    objectId=0x5ea173240, line=13
+    objectId=0x5ea173240, line=15
+    objectId=0x5e9e158f0, line=16
+    objectId=0x5ea1732c0, line=16
+    objectId=0x5ea1730f8, line=16
+    objectId=0x5ea173240, line=16
+    objectId=0x5ea1732c0, line=17
+    objectId=0x5ea1730f8, line=18
+
+Thread 0x5e9e15940
+
+  locals:
+
+Thread 0x5ea0f2e68
+  at no.aedify.rxscala.demo.Creature$$anonfun$5.apply$mcVJ$sp(J)V (Creature.scala:144)
+  at no.aedify.rxscala.demo.Creature$$anonfun$5.apply(J)V (Creature.scala:142)
+  at no.aedify.rxscala.demo.Creature$$anonfun$5.apply(Ljava/lang/Object;)Ljava/lang/Object; (Creature.scala:142)
+  at rx.lang.scala.ImplicitFunctionConversions$$anon$2.call(Ljava/lang/Object;)V (ImplicitFunctionConversions.scala:80)
+  at rx.Observable$2.onNext(Ljava/lang/Object;)V (Observable.java:373)
+  at rx.operators.SafeObserver.onNext(Ljava/lang/Object;)V (SafeObserver.java:121)
+  at rx.operators.OperationMap$MapObservable$1.onNext(Ljava/lang/Object;)V (OperationMap.java:124)
+  at rx.operators.SafeObserver.onNext(Ljava/lang/Object;)V (SafeObserver.java:121)
+  at rx.operators.OperationInterval$Interval$1.call()V (OperationInterval.java:72)
+  at rx.Scheduler$6.call(Lrx/Scheduler;Ljava/lang/Void;)Lrx/Subscription; (Scheduler.java:235)
+  at rx.Scheduler$6.call(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object; (Scheduler.java:232)
+  at rx.concurrency.ExecutorScheduler$1.run()V (ExecutorScheduler.java:55)
+  at java.util.concurrent.Executors$RunnableAdapter.call()Ljava/lang/Object; (Executors.java:471)
+  at java.util.concurrent.FutureTask.runAndReset()Z (FutureTask.java:304)
+  at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(Ljava/util/concurrent/ScheduledThreadPoolExecutor$ScheduledFutureTask;)Z (ScheduledThreadPoolExecutor.java:178)
+  at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run()V (ScheduledThreadPoolExecutor.java:293)
+  at java.util.concurrent.ThreadPoolExecutor.runWorker(Ljava/util/concurrent/ThreadPoolExecutor$Worker;)V (ThreadPoolExecutor.java:1145)
+  at java.util.concurrent.ThreadPoolExecutor$Worker.run()V (ThreadPoolExecutor.java:615)
+  at java.lang.Thread.run()V (Thread.java:744)
+
+  locals:
+    objectId=0x5e9d4f518, line=0
+    objectId=0x5e9d4f590, line=5
+    objectId=0x5e9d4f620, line=6
+    objectId=0x5e9d4f608, line=7
+    objectId=0x5e9d4f678, line=8
+    objectId=0x5e9d4f7b8, line=11
+    objectId=0x5e9d4f820, line=12
+    objectId=0x5e9d4f7d8, line=13
+    objectId=0x5e9d4f7d8, line=15
+    objectId=0x5e9e158f0, line=16
+    objectId=0x5ea0f2ed0, line=16
+    objectId=0x5ea0f2e68, line=16
+    objectId=0x5e9d4f7d8, line=16
+    objectId=0x5ea0f2ed0, line=17
+    objectId=0x5ea0f2e68, line=18
+
+Thread 0x5e9e159a8
+  at sun.misc.Unsafe.park(ZJ)V (Native Method)
+  at java.util.concurrent.locks.LockSupport.park(Ljava/lang/Object;)V (LockSupport.java:186)
+  at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await()V (AbstractQueuedSynchronizer.java:2043)
+  at java.awt.EventQueue.getNextEvent()Ljava/awt/AWTEvent; (EventQueue.java:543)
+  at java.awt.EventDispatchThread.pumpOneEventForFilters(I)V (EventDispatchThread.java:211)
+  at java.awt.EventDispatchThread.pumpEventsForFilter(ILjava/awt/Conditional;Ljava/awt/EventFilter;)V (EventDispatchThread.java:161)
+  at java.awt.EventDispatchThread.pumpEventsForHierarchy(ILjava/awt/Conditional;Ljava/awt/Component;)V (EventDispatchThread.java:150)
+  at java.awt.EventDispatchThread.pumpEvents(ILjava/awt/Conditional;)V (EventDispatchThread.java:146)
+  at java.awt.EventDispatchThread.pumpEvents(Ljava/awt/Conditional;)V (EventDispatchThread.java:138)
+  at java.awt.EventDispatchThread.run()V (EventDispatchThread.java:91)
+
+  locals:
+    objectId=0x5e9e159a8, line=1
+    objectId=0x5e9e15a20, line=2
+    objectId=0x5e9d75180, line=2
+    objectId=0x5e9e15a38, line=3
+    objectId=0x5e9e159a8, line=4
+    objectId=0x5e9e15a38, line=4
+    objectId=0x5e9e159a8, line=5
+    objectId=0x5e9e15cf0, line=5
+    objectId=0x5e9e15d08, line=5
+    objectId=0x5e9e159a8, line=6
+    objectId=0x5e9e15cf0, line=6
+    objectId=0x5e9e159a8, line=7
+    objectId=0x5e9e15cf0, line=7
+    objectId=0x5e9e159a8, line=8
+    objectId=0x5e9e15cf0, line=8
+    objectId=0x5e9e159a8, line=9
+
+Thread 0x5ea08a648
+  at java.lang.Object.wait(J)V (Native Method)
+  at java.lang.ref.ReferenceQueue.remove(J)Ljava/lang/ref/Reference; (ReferenceQueue.java:135)
+  at java.lang.ref.ReferenceQueue.remove()Ljava/lang/ref/Reference; (ReferenceQueue.java:151)
+  at sun.java2d.Disposer.run()V (Disposer.java:145)
+  at java.lang.Thread.run()V (Thread.java:744)
+
+  locals:
+    objectId=0x5ea08a6c8, line=1
+    objectId=0x5ea08a6b0, line=1
+    objectId=0x5ea08a6c8, line=2
+    objectId=0x5ea08a6e8, line=3
+    objectId=0x5ea08a648, line=4
+
+Thread 0x5e9e9d6a8
+  at java.lang.Object.wait(J)V (Native Method)
+  at sun.java2d.opengl.OGLRenderQueue$QueueFlusher.run()V (OGLRenderQueue.java:208)
+
+  locals:
+    objectId=0x5e9e9d6a8, line=1
+
+Thread 0x5ea08a700
+  at java.lang.Object.wait(J)V (Native Method)
+  at java.lang.Object.wait()V (Object.java:503)
+  at sun.awt.AWTAutoShutdown.run()V (AWTAutoShutdown.java:287)
+  at java.lang.Thread.run()V (Thread.java:744)
+
+  locals:
+    objectId=0x5ea08a768, line=1
+    objectId=0x5e9e15a80, line=2
+    objectId=0x5ea08a700, line=2
+    objectId=0x5ea08a768, line=2
+    objectId=0x5ea08a700, line=3
+
+Thread 0x5e9f7cd58
+
+  locals:
+    objectId=0x5e9f7c190, line=-1
+    objectId=0x5e9f7c1d8, line=-1
+    objectId=0x5e9f7c220, line=-1
+    objectId=0x5e9f7c268, line=-1
+    objectId=0x5e9f7c2b0, line=-1
+    objectId=0x5e9f7c2f8, line=-1
+    objectId=0x5e9f7c340, line=-1
+    objectId=0x5e9f7c388, line=-1
+    objectId=0x5e9f7c3d0, line=-1
+    objectId=0x5e9f7c418, line=-1
+    objectId=0x5e9f7c460, line=-1
+    objectId=0x5e9f7c4a8, line=-1
+    objectId=0x5e9f7c4f0, line=-1
+    objectId=0x5e9f7c538, line=-1
+    objectId=0x5e9f7c580, line=-1
+    objectId=0x5e9f7c5c8, line=-1
+    objectId=0x5e9f7c610, line=-1
+    objectId=0x5e9f7c658, line=-1
+    objectId=0x5e9f7c6a0, line=-1
+    objectId=0x5e9f7c6e8, line=-1
+    objectId=0x5e9f7c730, line=-1
+    objectId=0x5e9f7c778, line=-1
+    objectId=0x5e9f7c7c0, line=-1
+    objectId=0x5e9f7c808, line=-1
+    objectId=0x5e9f7c850, line=-1
+    objectId=0x5e9f7c898, line=-1
+    objectId=0x5e9f7c8e0, line=-1
+    objectId=0x5e9f7c928, line=-1
+    objectId=0x5e9f7c970, line=-1
+    objectId=0x5e9f7c9b8, line=-1
+    objectId=0x5e9f7ca00, line=-1
+    objectId=0x5e9f7ca48, line=-1
+    objectId=0x5e9f7ca90, line=-1
+    objectId=0x5e9f7cad0, line=-1
+    objectId=0x5e9f7cb18, line=-1
+    objectId=0x5e9f7cb60, line=-1
+    objectId=0x5e9f7cba8, line=-1
+    objectId=0x5e9f7cbf0, line=-1
+    objectId=0x5e9f7cc38, line=-1
+    objectId=0x5e9f7cc80, line=-1
+    objectId=0x5e9f7ccc8, line=-1
+    objectId=0x5e9f7cd10, line=-1
+    objectId=0x5e99e5ae8, line=-1
+    objectId=0x5e99e5aa0, line=-1
+
+Thread 0x5ea0f2f18
+  at java.net.PlainSocketImpl.socketAccept(Ljava/net/SocketImpl;)V (Native Method)
+  at java.net.AbstractPlainSocketImpl.accept(Ljava/net/SocketImpl;)V (AbstractPlainSocketImpl.java:398)
+  at java.net.ServerSocket.implAccept(Ljava/net/Socket;)V (ServerSocket.java:530)
+  at java.net.ServerSocket.accept()Ljava/net/Socket; (ServerSocket.java:498)
+  at sun.management.jmxremote.LocalRMIServerSocketFactory$1.accept()Ljava/net/Socket; (LocalRMIServerSocketFactory.java:52)
+  at sun.rmi.transport.tcp.TCPTransport$AcceptLoop.executeAcceptLoop()V (TCPTransport.java:388)
+  at sun.rmi.transport.tcp.TCPTransport$AcceptLoop.run()V (TCPTransport.java:360)
+  at java.lang.Thread.run()V (Thread.java:744)
+
+  locals:
+    objectId=0x5ea0f2f00, line=0
+    objectId=0x5ea0f2f80, line=1
+    objectId=0x5ea0f2ff0, line=1
+    objectId=0x5ea0f3060, line=2
+    objectId=0x5ea0f3080, line=2
+    objectId=0x5ea0f2ff0, line=2
+    objectId=0x5ea0f3060, line=3
+    objectId=0x5ea0f3080, line=3
+    objectId=0x5ea0f3060, line=4
+    objectId=0x5ea0f30a0, line=5
+    objectId=0x5ea0f30a0, line=6
+    objectId=0x5ea0f2f18, line=7
+
+Thread 0x5ea08a898
+
+  locals:
+
+Thread 0x5ea08a900
+  at java.lang.Object.wait(J)V (Native Method)
+  at java.lang.ref.ReferenceQueue.remove(J)Ljava/lang/ref/Reference; (ReferenceQueue.java:135)
+  at java.lang.ref.ReferenceQueue.remove()Ljava/lang/ref/Reference; (ReferenceQueue.java:151)
+  at java.lang.ref.Finalizer$FinalizerThread.run()V (Finalizer.java:189)
+
+  locals:
+    objectId=0x5ea08a988, line=1
+    objectId=0x5ea08a970, line=1
+    objectId=0x5ea08a988, line=2
+    objectId=0x5ea08a900, line=3
+
+Thread 0x5e9fff280
+  at java.lang.Object.wait(J)V (Native Method)
+  at java.lang.Object.wait()V (Object.java:503)
+  at java.lang.ref.Reference$ReferenceHandler.run()V (Reference.java:133)
+
+  locals:
+    objectId=0x5e9fff2e8, line=1
+    objectId=0x5e9fff280, line=2
+    objectId=0x5e9fff2e8, line=2
+
